@@ -17,10 +17,10 @@ var DemoAppModel = (function (_super) {
       accessToken: accessToken,
       style: mapbox.MapStyle.OUTDOORS,
       margins: {
-        left: 18,
-        right: 18,
-        top: isIOS ? 400 : 424,
-        bottom: isIOS ? 50 : 8
+        left: 0,
+        right: 0,
+        top: isIOS ? 60 : 110,
+        bottom: isIOS ? 50 : 0
       },
       center: {
         lat: 52.3702160,
